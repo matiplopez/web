@@ -43,8 +43,10 @@ h1,h2,h3 {
 
 .titulo{
     font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 400;
 }
-
 
 .contenedor{
     max-width: 120rem;
@@ -52,7 +54,7 @@ h1,h2,h3 {
 }
 
 .boton{
-    background-color: var(--secundario);
+    background-color: var(--oscuro);
     color:var(--blanco);
     padding:1rem 3rem;
     margin-top: 1rem;
@@ -64,8 +66,12 @@ h1,h2,h3 {
     width:90%;
     border:none;
 }
+.boton .boton2{
+    background-color: var(--primario);
+}
 .boton:hover{
     cursor: pointer;
+    opacity:0.9;
 
 }
 @media (min-width: 480px) {
@@ -101,7 +107,7 @@ h1,h2,h3 {
 /*Navegación principal*/
 
 .nav-bg{
-    background-color: var(--secundario);
+    background-color: var(--oscuro);
 }
 
 .header{
@@ -185,7 +191,7 @@ align-items: center;
 }
 
 .servicio h3{
-    color:var(--secundario);
+    color:var(--primario);
     font-weight: normal;
 }
 
