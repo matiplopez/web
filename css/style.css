@@ -68,6 +68,7 @@ h1,h2,h3 {
 }
 .boton2{
     background-color: var(--primario);
+    color: var(--oscuro);
 }
 .boton:hover{
     cursor: pointer;
