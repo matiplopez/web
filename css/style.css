@@ -41,9 +41,10 @@ h1,h2,h3 {
     text-align: center;  
 }
 
-.titulo span{
-    font-size: 2rem;
+.titulo{
+    font-size: 4rem;
 }
+
 
 .contenedor{
     max-width: 120rem;
