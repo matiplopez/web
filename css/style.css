@@ -176,7 +176,13 @@ h1,h2,h3 {
 } */
 /** Servicios **/
 
-
+.bloque1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+}
 @media (min-width: 780px) {
     .servicios{
         display: grid;
